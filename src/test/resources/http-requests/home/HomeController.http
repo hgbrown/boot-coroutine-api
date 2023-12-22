@@ -1,0 +1,8 @@
+### Root Path
+GET {{prot}}{{host}}:{{port}}/
+Accept: application/json
+
+
+### Health
+GET {{prot}}{{host}}:{{port}}/health
+Accept: application/json

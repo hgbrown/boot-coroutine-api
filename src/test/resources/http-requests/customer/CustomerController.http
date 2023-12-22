@@ -1,0 +1,26 @@
+### Find all customers
+GET {{prot}}{{host}}:{{port}}/api/customers
+Accept: application/json
+
+### Create a new customer
+POST {{prot}}{{host}}:{{port}}/api/customers
+Content-Type: application/json
+Accept: application/json
+
+{
+      "name": "TEST-1"
+}
+
+### Find by id
+GET {{prot}}{{host}}:{{port}}/api/customers/1
+Accept: application/json
+
+### Update by id
+### Find by id
+PUT {{prot}}{{host}}:{{port}}/api/customers/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "TEST-123"
+}
